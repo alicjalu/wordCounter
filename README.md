@@ -1,0 +1,1 @@
+Simple word and characters counter, built with VanillaJS and using RegExp.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+  <h1 class="main-header">Licznik słów i znaków:</h1>
+<div class="textarea">
+    <form>
+      <textarea id="textfield" placeholder="sprawdź ile słów i znaków ma twój tekst. Zacznij pisać..."></textarea>
+    </form>
+  </div>
+  
+  <div class="btn">
+    <button id="button"><i class="fas fa-copy"></i></button>
+  </div>
+  
+    <div class="numbers">
+      <p>Liczba słów: <span id=words>0</span></p>
+      <p>Liczba znaków(w tym spacje): <span id="signs">0</span></p>
+      <p>Liczba znaków(bez spacji):<span id="no-white">0</span></p>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="scripts/index.js" defer></script>
+</body>
+
+</html>
